@@ -108,19 +108,59 @@ body {
     z-index: 1;
 }
 
-.progress-bar ul li:first-child:before {
+.progress-bar ul li:nth-child(4) {
+    color: black;
+}
+
+.progress-bar ul li:nth-child(5) {
+    color: black;
+}
+
+.progress-bar ul li:first-child::before {
     content: '';
     position: absolute;
-    top: 0;
-    left: 49%;
+    top: 56px;
+    left: 48%;
     width: 4px;
-    height: 100%;
-    background: #0c81b7;
+    height: 50%;
+    background: #009973;
     z-index: -1;
 }
 
+.progress-bar ul li:nth-child(2):before {
+    content: '';
+    position: absolute;
+    top: 56px;
+    left: 48%;
+    width: 4px;
+    height: 50%;
+    background: #009973;
+    z-index: -1;
+}
 
-/* .progress-bar ul li::after {
+.progress-bar ul li:nth-child(3):before {
+    content: '';
+    position: absolute;
+    top: 56px;
+    left: 48%;
+    width: 4px;
+    height: 50%;
+    background: #c7cbcc;
+    z-index: -1;
+}
+
+.progress-bar ul li:nth-child(4):before {
+    content: '';
+    position: absolute;
+    top: 56px;
+    left: 48%;
+    width: 4px;
+    height: 50%;
+    background: #c7cbcc;
+    z-index: -1;
+}
+
+.progress-bar ul li:first-child:after {
     content: '';
     position: absolute;
     top: 50%;
@@ -129,15 +169,58 @@ body {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background: #0c81b7;
+    background: #009973;
     z-index: -1;
-} */
-
-
-/* .progress-bar ul li:first-child::before {
-    top: 50%;
 }
 
-.progress-bar ul li:last-child::before {
-    height: 50%;
-} */
+.progress-bar ul li:nth-child(2):after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #009973;
+    z-index: -1;
+}
+
+.progress-bar ul li:nth-child(3):after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #ff9900;
+    z-index: -1;
+}
+
+.progress-bar ul li:nth-child(4):after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #c7cbcc;
+    z-index: -1;
+}
+
+.progress-bar ul li:nth-child(5):after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #c7cbcc;
+    z-index: -1;
+}
