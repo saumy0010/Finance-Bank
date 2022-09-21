@@ -80,6 +80,8 @@
         padding-bottom: 20px;
         padding-left: 410px;
         color: #009973;
+        font-size: 15px;
+        line-height: 1.8;
     }
     
     .grid {
@@ -282,19 +284,12 @@
         padding: 20px;
         box-shadow: #c7cbcc 0px 0px 10px;
     }
-    /* .left-form {
-        border: #009973 1px solid;
-    }
-     */
     
     .left-form label,
     .right-form label {
         display: block;
         padding-bottom: 7px;
     }
-    /* .right-form {
-        border: #009973 1px solid;
-    } */
     
     .initials {
         width: 110px;
@@ -347,6 +342,12 @@
         font-family: 'Regular', sans-serif;
         font-weight: 400;
         cursor: pointer;
+        transition: 0.2s ease;
+    }
+    
+    .cancel-btn:hover {
+        background: #3d3e3e;
+        color: white;
     }
     
     .continue-btn {
@@ -359,6 +360,12 @@
         font-family: 'Regular', sans-serif;
         font-weight: 400;
         cursor: pointer;
+        transition: 0.2s ease;
+    }
+    
+    .continue-btn:hover {
+        background: #38acac;
+        color: white;
     }
     /* --------------------------------Media queries----------------------------------- */
     
