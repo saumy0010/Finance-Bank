@@ -311,6 +311,19 @@
         padding-left: 10px;
     }
     
+    .options {
+        appearance: none;
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: auto 1em;
+        background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 612 612" fill="tomato"><path d="M 96.00,96.00l-96.00,96.00l 256.00,256.00l 256.00-256.00l-96.00-96.00L 256.00,256.00L 96.00,96.00z"/></svg>');
+        padding: 0.1em 1.5em 0.1em 0.4em;
+    }
+    
+    .input-type:focus {
+        outline: none;
+    }
+    
     .btn-tag {
         padding-top: 60px;
         padding-bottom: 20px;
