@@ -5,30 +5,29 @@
     }
     
     @font-face {
-        font-family: 'Thin';
+        font-family: 'Roboto';
         src: url('../Fonts/Roboto-Thin.ttf') format('truetype');
         font-style: normal;
-        font-weight: 400;
+        font-weight: 300;
     }
     
     @font-face {
-        font-family: 'Light';
+        font-family: 'Roboto';
         src: url('../Fonts/Roboto-Light.ttf') format('truetype');
         font-style: normal;
         font-weight: 400;
     }
     
     @font-face {
-        font-family: 'Regular';
+        font-family: 'Roboto';
         src: url('../Fonts/Roboto-Regular.ttf') format('truetype');
         font-style: normal;
-        font-weight: 400;
+        font-weight: 500;
     }
     
     body {
-        /* font-family: 'Poppins', sans-serif; */
-        font-family: 'Light', sans-serif;
-        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        /* font-weight: 500; */
         background: #f5f5f5;
     }
     /* ---------------------------------Navbar-------------------------------------- */
@@ -48,8 +47,7 @@
         padding-top: 24px;
         text-align: center;
         padding-left: 220px;
-        font-family: 'Thin', sans-serif;
-        font-weight: 400;
+        font-weight: 300;
         transition: 0.2s ease;
     }
     
@@ -76,6 +74,7 @@
     /* ------------------------------------Content------------------------------------------ */
     
     .header-txt {
+        font-weight: 300;
         text-align: center;
         padding-bottom: 20px;
         padding-left: 410px;
@@ -195,7 +194,6 @@
     /* ---------------------------------------Profile---------------------------------------- */
     
     .profile-inner {
-        font-family: 'Regular', sans-serif;
         font-weight: 400;
         display: grid;
         grid-template-columns: 28% 70%;
@@ -203,7 +201,6 @@
     }
     
     .profile-info {
-        /* border: #009973 1px solid; */
         box-shadow: #c7cbcc 0px 0px 10px;
         max-height: 500px;
     }
@@ -230,6 +227,7 @@
     }
     
     .data {
+        font-weight: 300;
         padding-top: 20px;
         padding-left: 25px;
     }
@@ -277,7 +275,7 @@
     }
     
     .form {
-        /* border: #009973 1px solid; */
+        font-weight: 500;
         display: grid;
         grid-template-columns: 50% 50%;
         grid-gap: 20px;
@@ -315,8 +313,8 @@
         appearance: none;
         background-repeat: no-repeat;
         background-position: right center;
-        background-size: auto 1em;
-        background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 612 612" fill="tomato"><path d="M 96.00,96.00l-96.00,96.00l 256.00,256.00l 256.00-256.00l-96.00-96.00L 256.00,256.00L 96.00,96.00z"/></svg>');
+        background-size: auto 2em;
+        background-image: url('../images/arrow.png');
         padding: 0.1em 1.5em 0.1em 0.4em;
     }
     
