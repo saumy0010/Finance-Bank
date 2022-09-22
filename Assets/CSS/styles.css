@@ -265,15 +265,18 @@
     
     .form {
         font-weight: 500;
+        padding: 20px;
+        box-shadow: #c7cbcc 0px 0px 10px;
+        padding-bottom: 50px;
+    }
+    
+    .form-inner {
         display: grid;
         grid-template-columns: 50% 50%;
         grid-gap: 20px;
-        padding: 20px;
-        box-shadow: #c7cbcc 0px 0px 10px;
     }
     
-    .left-form label,
-    .right-form label {
+    .form-inner label {
         display: block;
         padding-bottom: 7px;
     }
@@ -284,10 +287,6 @@
         border: 2px solid #c7cbcc;
         border-radius: 20px;
         padding-left: 10px;
-    }
-    
-    .mr-label {
-        padding-top: 25px;
     }
     
     .input-type {
@@ -327,9 +326,10 @@
     }
     
     .buttons {
-        margin-left: 40px;
         padding-top: 10px;
         padding-bottom: 10px;
+        text-align: end;
+        padding-right: 60px;
     }
     
     .cancel-btn {
@@ -374,11 +374,15 @@
         .profile-info {
             margin-bottom: 20px;
         }
-        .form {
+        .form-inner {
             grid-template-columns: 100%;
         }
         .initials {
             width: 80%;
+        }
+        .buttons {
+            padding-right: 0px;
+            text-align: center;
         }
     }
     
@@ -389,7 +393,6 @@
         }
         .header-txt {
             text-align: center;
-            /* padding-left: 0px; */
             color: #009973;
         }
     }
